@@ -10,6 +10,7 @@ const navItems = [
   { label: 'Skills', href: '#skills' },
   { label: 'About', href: '#about' },
   { label: 'Experience', href: '#experience' },
+  { label: 'Playground', href: '#playground' },
   { label: 'Contact', href: '#contact' },
 ];
 
@@ -54,9 +55,8 @@ export function Navigation() {
         initial={{ y: -100 }}
         animate={{ y: 0 }}
         transition={{ duration: 0.5 }}
-        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-          isScrolled ? 'glass border-b border-border/50' : ''
-        }`}
+        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'glass border-b border-border/50' : ''
+          }`}
       >
         <div className="container mx-auto px-6">
           <div className="flex items-center justify-between h-16 md:h-20">
@@ -81,11 +81,10 @@ export function Navigation() {
                 <motion.button
                   key={item.href}
                   onClick={() => scrollToSection(item.href)}
-                  className={`px-4 py-2 rounded-lg text-sm font-medium transition-all ${
-                    activeSection === item.href.replace('#', '')
+                  className={`px-4 py-2 rounded-lg text-sm font-medium transition-all ${activeSection === item.href.replace('#', '')
                       ? 'text-primary bg-primary/10'
                       : 'text-muted-foreground hover:text-foreground hover:bg-muted/50'
-                  }`}
+                    }`}
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                 >
@@ -122,11 +121,10 @@ export function Navigation() {
                   <motion.button
                     key={item.href}
                     onClick={() => scrollToSection(item.href)}
-                    className={`px-4 py-3 rounded-lg text-left font-medium transition-all ${
-                      activeSection === item.href.replace('#', '')
+                    className={`px-4 py-3 rounded-lg text-left font-medium transition-all ${activeSection === item.href.replace('#', '')
                         ? 'text-primary bg-primary/10'
                         : 'text-muted-foreground hover:text-foreground hover:bg-muted/50'
-                    }`}
+                      }`}
                     whileTap={{ scale: 0.98 }}
                   >
                     {item.label}

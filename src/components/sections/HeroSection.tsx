@@ -4,6 +4,7 @@ import { useParallax } from '@/hooks/useMousePosition';
 import { profile } from '@/data/profile';
 import { Button } from '@/components/ui/button';
 import { ArrowDown, Github, Mail } from 'lucide-react';
+import { HeroOrb } from '@/components/animations/HeroOrb';
 
 const heroLines = [
   '> Hello World',
@@ -53,6 +54,11 @@ export function HeroSection() {
           transition={{ duration: 30, repeat: Infinity, ease: 'linear' }}
         />
       </motion.div>
+
+      {/* Hero Orb Centerpiece */}
+      <div className="absolute inset-0 z-0 opacity-60">
+        <HeroOrb />
+      </div>
 
       {/* Main content */}
       <div className="container mx-auto px-6 z-10">

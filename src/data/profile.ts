@@ -1,29 +1,29 @@
 export const profile = {
-  name: "M Faisal Lodhi",
+  name: "Muhammad Faisal Lodhi",
   shortName: "Faisal Lodhi",
   title: "AI & Full Stack Developer",
   tagline: "Building intelligent systems with RAG, LLMs & Modern Web Technologies",
   email: "faisallodhi1912@gmail.com",
-  phone: "+92 346 8161792",
-  location: "Karachi, Pakistan",
+  phone: "+92 317 0861998",
+  location: "Islamabad, Pakistan",
   github: "https://github.com/lodhi7862",
-  linkedin: "https://linkedin.com/in/faisallodhi",
-  
+  linkedin: "https://linkedin.com/in/faisal-lodhi-0850a821b",
+
   summary: `AI-focused Software Engineer specializing in Retrieval-Augmented Generation (RAG) systems, 
   LLM integration, and full-stack development. Passionate about building intelligent applications 
   that leverage cutting-edge AI technologies to solve real-world problems.`,
-  
+
   terminalResponses: {
     whoami: `> M Faisal Lodhi
 > AI & Full Stack Developer
-> Location: Karachi, Pakistan
+> Location: Islamabad, Pakistan
 > 
 > Specializing in:
 > - Retrieval-Augmented Generation (RAG)
 > - Large Language Model Integration
 > - Full Stack Web Development
 > - Intelligent Document Processing`,
-    
+
     education: `> SZABIST University
 > BS Computer Science
 > 2020 - 2024
@@ -32,21 +32,22 @@ export const profile = {
 > - Artificial Intelligence
 > - Software Engineering
 > - Database Systems`,
-    
+
     experience: `> Career Timeline:
 >
 > [CURRENT] AI Engineer Intern @ DevGate
 > - Building RAG-based AI systems
 > - LLM integration & fine-tuning
+> - Voice Agent Development
 >
-> [2023] Junior Developer @ Predictive-Lab
+> [2024] Junior Developer @ Predictive-Lab
 > - Full-stack development
 > - AI/ML project implementation
 >
 > [2022] Software Developer @ ZONG HQ CMPAK
 > - Enterprise software development
 > - System optimization`,
-    
+
     certifications: `> Certifications & Programs:
 >
 > 📜 Agentic AI Program
@@ -94,8 +95,8 @@ export const skills = {
         { name: "FastAPI", level: 90 },
         { name: "Django", level: 88 },
         { name: "Flask", level: 85 },
-        { name: "LangChain", level: 92 },
-        { name: "React", level: 82 },
+        { name: "LangChain", level: 90 },
+        { name: "React", level: 80 },
       ],
     },
     {
@@ -103,7 +104,7 @@ export const skills = {
       name: "Frontend",
       color: "purple",
       skills: [
-        { name: "React 18", level: 82 },
+        { name: "React 18", level: 80 },
         { name: "Tailwind CSS", level: 88 },
         { name: "Next.js", level: 75 },
         { name: "Framer Motion", level: 70 },
@@ -114,7 +115,7 @@ export const skills = {
       name: "Databases",
       color: "cyan",
       skills: [
-        { name: "MongoDB", level: 85 },
+        { name: "MongoDB", level: 60 },
         { name: "PostgreSQL", level: 80 },
         { name: "MySQL", level: 78 },
         { name: "FAISS", level: 88 },
@@ -145,7 +146,7 @@ export const projects = [
     category: "AI/ML",
     featured: true,
     github: "https://github.com/lodhi7862",
-    live: null,
+    live: "https://example.com/demo",
     metrics: {
       accuracy: "94%",
       processingSpeed: "2.5s/page",
@@ -161,7 +162,7 @@ export const projects = [
     category: "AI/ML",
     featured: true,
     github: "https://github.com/lodhi7862",
-    live: null,
+    live: "https://example.com/demo",
     metrics: {
       responseTime: "1.2s",
       contextWindow: "16K tokens",
@@ -177,7 +178,7 @@ export const projects = [
     category: "AI/ML",
     featured: true,
     github: "https://github.com/lodhi7862",
-    live: null,
+    live: "https://example.com/demo",
     metrics: {
       queriesHandled: "5K+",
       userSatisfaction: "4.5/5",
@@ -185,6 +186,23 @@ export const projects = [
   },
   {
     id: 4,
+    title: "Voice Agent - RAG-Enabled Voice Assistant",
+    description: "Production-grade real-time voice assistant with RAG capabilities, supporting multiple document formats and AI models with streaming audio processing.",
+    longDescription: "A sophisticated voice agent that combines real-time speech processing with Retrieval-Augmented Generation. Features real-time speech-to-text via Deepgram, LLM-powered responses with token streaming, and text-to-speech synthesis. Supports document processing up to 100MB with hierarchical chunking, E5 embeddings, and Qdrant vector database. Includes agent management system for custom knowledge bases and multi-agent support.",
+    tech: ["Python", "FastAPI", "React", "Deepgram", "DeepSeek", "Qdrant", "WebSocket", "RAG", "Vite", "Tailwind CSS"],
+    category: "AI/ML",
+    featured: true,
+    github: "https://github.com/lodhi7862",
+    live: "https://example.com/demo",
+    metrics: {
+      documentSize: "100MB+",
+      latency: "<500ms",
+      accuracy: "94%",
+      supportedFormats: "6+",
+    },
+  },
+  {
+    id: 5,
     title: "Car Parts E-Commerce",
     description: "Full-featured Django e-commerce platform for automotive parts with inventory management and payment integration.",
     longDescription: "A comprehensive e-commerce solution built with Django, featuring product catalog, shopping cart, order management, and admin dashboard for inventory control.",
@@ -192,14 +210,14 @@ export const projects = [
     category: "Full Stack",
     featured: false,
     github: "https://github.com/lodhi7862",
-    live: null,
+    live: "https://example.com/demo",
     metrics: {
       products: "500+",
       dailyVisitors: "1K+",
     },
   },
   {
-    id: 5,
+    id: 6,
     title: "React Portfolio Website",
     description: "Modern, responsive portfolio website showcasing projects and skills with smooth animations.",
     longDescription: "A clean and modern portfolio website built with React, featuring smooth scroll animations, project showcases, and contact functionality.",
@@ -207,11 +225,11 @@ export const projects = [
     category: "Frontend",
     featured: false,
     github: "https://github.com/lodhi7862",
-    live: null,
+    live: "https://example.com/demo",
     metrics: null,
   },
   {
-    id: 6,
+    id: 7,
     title: "Task Management System",
     description: "ASP.NET Core CRUD application for efficient task and project management with team collaboration features.",
     longDescription: "A robust task management system with user authentication, project boards, task assignments, and progress tracking. Built with ASP.NET Core and SQL Server.",
@@ -219,22 +237,22 @@ export const projects = [
     category: "Full Stack",
     featured: false,
     github: "https://github.com/lodhi7862",
-    live: null,
+    live: "https://example.com/demo",
     metrics: {
       activeUsers: "200+",
       tasksCompleted: "5K+",
     },
   },
   {
-    id: 7,
+    id: 8,
     title: "AR-Based Kids Dictionary",
     description: "Unity 3D augmented reality application for interactive children's learning with Firebase backend.",
     longDescription: "An innovative AR application that brings learning to life. Kids can point their device at objects to see 3D models and learn vocabulary in an engaging way.",
     tech: ["Unity 3D", "C#", "Firebase", "AR Foundation", "Vuforia"],
     category: "AR/VR",
-    featured: true,
+    featured: false,
     github: "https://github.com/lodhi7862",
-    live: null,
+    live: "https://example.com/demo",
     metrics: {
       downloads: "1K+",
       rating: "4.7/5",
@@ -242,12 +260,13 @@ export const projects = [
   },
 ];
 
+
 export const experience = [
   {
     id: 1,
     role: "AI Engineer Intern",
     company: "DevGate",
-    period: "2024 - Present",
+    period: "2025 - Present",
     current: true,
     description: "Building RAG-based AI systems and integrating LLMs for intelligent document processing solutions.",
     responsibilities: [
@@ -262,7 +281,7 @@ export const experience = [
     id: 2,
     role: "Junior Developer",
     company: "Predictive-Lab",
-    period: "2023",
+    period: "2024",
     current: false,
     description: "Full-stack development with focus on AI/ML integration and web application development.",
     responsibilities: [
@@ -277,7 +296,7 @@ export const experience = [
     id: 3,
     role: "Software Developer",
     company: "ZONG HQ CMPAK",
-    period: "2022",
+    period: "2023",
     current: false,
     description: "Enterprise software development and system optimization for telecommunications infrastructure.",
     responsibilities: [

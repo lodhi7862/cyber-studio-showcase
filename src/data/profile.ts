@@ -146,7 +146,7 @@ export const projects = [
     category: "AI/ML",
     featured: true,
     github: "https://github.com/lodhi7862",
-    live: "https://example.com/demo",
+    live: "https://github.com/lodhi7862/document-summarization",
     metrics: {
       accuracy: "94%",
       processingSpeed: "2.5s/page",
@@ -160,7 +160,7 @@ export const projects = [
     longDescription: "A conversational AI system that allows users to upload PDFs and ask questions in natural language. Uses FAISS for efficient similarity search and maintains conversation context.",
     tech: ["Django", "Python", "FAISS", "LangChain", "OpenAI"],
     category: "AI/ML",
-    featured: true,
+    featured: false,
     github: "https://github.com/lodhi7862",
     live: "https://example.com/demo",
     metrics: {
@@ -193,7 +193,7 @@ export const projects = [
     category: "AI/ML",
     featured: true,
     github: "https://github.com/lodhi7862",
-    live: "https://example.com/demo",
+    live: "https://github.com/lodhi7862/Voice_Agent",
     metrics: {
       documentSize: "100MB+",
       latency: "<500ms",
@@ -256,6 +256,22 @@ export const projects = [
     metrics: {
       downloads: "1K+",
       rating: "4.7/5",
+    },
+  },
+  {
+    id: 9,
+    title: "Laa do (LaadoApp)",
+    description: "React Native mobile application for connecting users and managing requests/tasks within a personal network.",
+    longDescription: "Built a comprehensive mobile application using React Native and Expo. Features a robust backend with Node.js and Express, utilizing Drizzle ORM for PostgreSQL and Firebase for real-time capabilities. Includes features for user connections, task sharing, and profile management.",
+    tech: ["React Native", "Expo", "TypeScript", "Node.js", "Express", "Drizzle ORM", "PostgreSQL", "Firebase"],
+    category: "Mobile App",
+    featured: true,
+    github: "https://github.com/lodhi7862/LaadoApp",
+    live: "https://github.com/lodhi7862/LaadoApp",
+    metrics: {
+      platform: "Android/iOS",
+      architecture: "Monorepo",
+      database: "PostgreSQL",
     },
   },
 ];
